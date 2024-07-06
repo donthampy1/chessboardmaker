@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletile.css">
+</head>
+<body>
+    <h1> ChessBoard Using Javascript</h1>
+    <p>Enter rows</p>
+    <input  type="number" id="rownumber"></input>
+    <p>Enter coloumns</p>
+    <input  type="number" id="colnumber"></input>
+    <p>Enter odd tile color</p>
+    <input type ="color" id="oddcolor"></input>
+    <p>Enter even tile color</p>
+    <input type ="color" id="evencolor"></input>
+    <br></br>
+    <button onclick="generatechessboard()">Generate Chessboard</button>
+    <div id="maindiv"></div>
+    
+    <script src="chessboardlogic.js"></script>
+</body>
+</html>
