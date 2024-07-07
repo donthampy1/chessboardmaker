@@ -19,7 +19,6 @@ function generatechessboard() {
 
             if ((i+j)%2===0) {
                 tile.style.backgroundColor = evencolor;
-                
             } else {
                 tile.style.backgroundColor = oddcolor;
             }
